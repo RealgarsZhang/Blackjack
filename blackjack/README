@@ -1,0 +1,15 @@
+OVERVIEW:
+This is a Blackjack game developed in python 3.6. The rules are in https://wizardofodds.com/games/blackjack/basics/ .
+All rules following "sometimes" in the description are ignored.
+
+FOR USER:
+To run the game, simply run:
+$ python main.py
+You can modify the number of decks used and player number limit in the constant.py file.
+
+FOR DEVELOPER:
+constant.py: stores constants.
+Game.py: where the Game class resides. If you need to add more features, like surrender or insurance, they can be
+         easily added. At the beginning there is a DEBUG flag. Turning on, first several cards will be very special, so
+         that you can test very special cases like splitting aces or fake blackjack after splitting.
+main.py: driver code. Runnings of different stages are separated by prompting for ENTER.
